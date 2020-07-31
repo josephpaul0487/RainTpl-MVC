@@ -22,7 +22,7 @@
     
     /************************ PATHS ********************************************/
     
-    define('ROOT_FOLDER','/RainTplDemo/');
+    define('ROOT_FOLDER','/');// for folders ->  /FOLDER_NAME/ 
     define('HOST_PATH',$_SERVER['DOCUMENT_ROOT'].ROOT_FOLDER.'console/');
     define('VIEWS_PATH',HOST_PATH.'view/');
     define('SITE_URL',$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].ROOT_FOLDER.'console/');
